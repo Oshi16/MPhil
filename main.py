@@ -17,3 +17,6 @@ X_test = X_test.reshape(-1, 784)
 # Check the shapes of the data
 print(f"X_train shape: {X_train.shape}, y_train shape: {y_train.shape}")
 print(f"X_test shape: {X_test.shape}, y_test shape: {y_test.shape}")
+
+vae_with_rsma = VAEWithRSMA(original_dim=784, latent_dim=32, distance=10, noise_std=0.5, common_ratio=0.5)
+train_vae_with_rsma(X_train, vae_with_rsma)
