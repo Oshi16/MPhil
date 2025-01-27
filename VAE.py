@@ -1,4 +1,4 @@
- Define the encoder
+# Define the encoder
 class Encoder(tf.keras.layers.Layer):
     def __init__(self, latent_dim):
         super(Encoder, self).__init__()
