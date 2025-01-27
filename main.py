@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import layers
 import numpy as np
 
-import Model
+import VAEWithRSMA
 #import file2
 
 # Load the MNIST dataset
