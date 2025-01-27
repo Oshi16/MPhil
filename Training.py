@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import layers
 import numpy as np
 
+import Model
+
 def train_vae_with_rsma(X_train, vae_with_rsma, learning_rate=1e-3, num_epochs=2, batch_size=32):
     optimizer = tf.keras.optimizers.Adam(learning_rate)
 
