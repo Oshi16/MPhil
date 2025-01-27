@@ -1,3 +1,8 @@
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from tensorflow.keras import layers
+import numpy as np
+
 class Channel(layers.Layer):
 
     def __init__(self, distance, noise_std=0.1):
