@@ -1,3 +1,8 @@
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from tensorflow.keras import layers
+import numpy as np
+
 class MessageSplitter(layers.Layer):
     def __init__(self, split_ratio=0.5):
         super(MessageSplitter, self).__init__()
