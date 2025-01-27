@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 from tensorflow.keras import layers
 import numpy as np
 
+
+import VAE
+import Channel
+import RSMA
+
 # VAEWithRSMA model
 class VAEWithRSMA(tf.keras.Model):
     def __init__(self, original_dim, latent_dim, distance, noise_std, common_ratio):
