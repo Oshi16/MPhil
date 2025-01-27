@@ -1,3 +1,8 @@
+import tensorflow as tf
+import matplotlib.pyplot as plt
+from tensorflow.keras import layers
+import numpy as np
+
 # Define the encoder
 class Encoder(tf.keras.layers.Layer):
     def __init__(self, latent_dim):
